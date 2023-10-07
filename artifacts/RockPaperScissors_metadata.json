@@ -1,0 +1,124 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "betAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "gameHistory",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "player",
+						"type": "address"
+					},
+					{
+						"internalType": "enum RockPaperScissors.Move",
+						"name": "playerMove",
+						"type": "uint8"
+					},
+					{
+						"internalType": "enum RockPaperScissors.Move",
+						"name": "contractMove",
+						"type": "uint8"
+					},
+					{
+						"internalType": "bool",
+						"name": "playerWon",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum RockPaperScissors.Move",
+						"name": "_playerMove",
+						"type": "uint8"
+					}
+				],
+				"name": "play",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"prac2.sol": "RockPaperScissors"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"prac2.sol": {
+			"keccak256": "0xa63db77adf83b1d22f342bebef0af8b72c8e9708e7a8493d841454c583bea912",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://43fdfd55bfc4102d0ca9183765e0b8111ac891dedce4eca9b6f79784d1a69524",
+				"dweb:/ipfs/QmfFFXZhvJCeikrb6rQMmWz47T3jdw2Z9DdaFKSUbjfa73"
+			]
+		}
+	},
+	"version": 1
+}

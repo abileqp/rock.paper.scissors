@@ -1,0 +1,100 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set a background color and text color for the whole page */
+body {
+    background-color: #e0e9f3; /* Light blue background */
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the header */
+header {
+    background-color: #007BFF; /* Dark blue header */
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Style the main content area */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the "Play the Game" section */
+#game-play {
+    margin-bottom: 20px;
+}
+
+#game-play h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007BFF; /* Dark blue buttons */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Slightly darker blue on hover */
+}
+
+/* Style the "Game Outcome" section */
+#game-outcome {
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#game-outcome h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the "Game History" section */
+#game-history {
+    background-color: #e0e9f3; /* Light blue background */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#game-history h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#history-list {
+    list-style-type: none;
+}
+
+#history-list li {
+    margin-bottom: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    main {
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px;
+    }
+}
